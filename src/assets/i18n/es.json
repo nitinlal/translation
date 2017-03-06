@@ -1,5 +1,8 @@
 {
   "home": {
     "hello": "hola {{value}}"
+  },
+  "app": {
+    "hello": "hola {{value}}"
   }
 }

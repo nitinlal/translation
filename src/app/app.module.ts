@@ -7,6 +7,7 @@ import {AppComponent} from './app.component';
 import {TranslateModule, TranslateLoader} from '@ngx-translate/core';
 import {} from '@ngx-translate/http-loader';
 import {TranslateHttpLoader} from '@ngx-translate/http-loader';
+import {HomeComponent} from './home.component';
 
 export function createTranslateLoader(http: Http) {
   return new TranslateHttpLoader(http);
@@ -14,7 +15,8 @@ export function createTranslateLoader(http: Http) {
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
@@ -29,7 +31,9 @@ export function createTranslateLoader(http: Http) {
     })
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [
+    AppComponent,
+  ]
 })
 export class AppModule {
 }

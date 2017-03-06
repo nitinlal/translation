@@ -1,5 +1,7 @@
 import {Component} from '@angular/core';
 import {TranslateService} from '@ngx-translate/core';
+import {} from './home.component';
+import {HomeComponent} from './home.component';
 
 @Component({
   selector: 'app-root',
@@ -9,7 +11,7 @@ import {TranslateService} from '@ngx-translate/core';
 export class AppComponent {
   title = 'Translate demo!';
   param = {
-    'value': 'user'
+    'value': 'App component'
   };
 
   constructor(private translateService: TranslateService) {

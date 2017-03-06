@@ -8,7 +8,8 @@
     "start": "ng serve",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "extract": "ng2-translate-extract --dir ./src --output ./ --format=json --clean"
   },
   "private": true,
   "dependencies": {
